@@ -1,0 +1,27 @@
+{
+  "name": "fateverse-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "chart.js": "^4.4.8",
+    "vue": "^3.4.21",
+    "vue-chartjs": "^5.3.1",
+    "vuetify": "^3.5.14",
+    "typeit": "^8.7.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "vite": "^5.2.0",
+    "vite-plugin-vuetify": "^2.0.3"
+  }
+}
